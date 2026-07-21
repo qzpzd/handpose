@@ -108,6 +108,7 @@ def main():
     # 打开摄像头
     print(f"\n打开摄像头 (设备ID: {USB_DEVICE_ID})...")
     cap = cv2.VideoCapture(USB_DEVICE_ID)
+    # cap = cv2.VideoCapture('scale_compress.mp4')
     
     if not cap.isOpened():
         print(f"✗ 无法打开摄像头 (设备ID: {USB_DEVICE_ID})")

@@ -2,6 +2,8 @@
 
 基于 MediaPipe 的实时手势姿态估计项目，支持多种推理后端（ONNX、TensorFlow Lite、TensorRT）。
 
+更详细的实测性能、模型输入输出，以及 TensorRT 模块代码说明见：[推理与TRT模块说明.md](推理与TRT模块说明.md)。
+
 ## 项目结构
 
 ### 核心推理模块
